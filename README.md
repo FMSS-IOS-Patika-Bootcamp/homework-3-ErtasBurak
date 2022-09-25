@@ -15,3 +15,13 @@
 - Tamamlandı butonuna basıldığı zaman, Todo List ekranında ilgili Todo Cellindeki image tick şaretine dönüşücektir.
 
  Arkadaşlar kolay gelsin :)
+ 
+ 
+ -----
+ 
+ ## ToDo list yetişmedi, çalışmıyor.
+ Kingfisher, Cocoapods ile  kuruldu.
+ 
+ ## Demo
+ 
+ ![odev3](https://user-images.githubusercontent.com/88059407/192146731-53d6c67f-9584-4719-90a3-a1178edf07cb.gif)
