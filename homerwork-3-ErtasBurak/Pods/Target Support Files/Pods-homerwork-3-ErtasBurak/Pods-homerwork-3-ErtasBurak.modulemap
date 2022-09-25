@@ -1,0 +1,6 @@
+framework module Pods_homerwork_3_ErtasBurak {
+  umbrella header "Pods-homerwork-3-ErtasBurak-umbrella.h"
+
+  export *
+  module * { export * }
+}

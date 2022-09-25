@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3D5C522CEA7FF44FC17CBAA /* Pods_homerwork_3_ErtasBurak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DE521677DA31A02D0E3BE3 /* Pods_homerwork_3_ErtasBurak.framework */; };
+		F1758F6D28DDDA80005DC4F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F6C28DDDA80005DC4F4 /* AppDelegate.swift */; };
+		F1758F7128DDDA80005DC4F4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F7028DDDA80005DC4F4 /* TabBar.swift */; };
+		F1758F7728DDDA80005DC4F4 /* homerwork_3_ErtasBurak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1758F7528DDDA80005DC4F4 /* homerwork_3_ErtasBurak.xcdatamodeld */; };
+		F1758F7928DDDA82005DC4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1758F7828DDDA82005DC4F4 /* Assets.xcassets */; };
+		F1758F7C28DDDA82005DC4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1758F7A28DDDA82005DC4F4 /* LaunchScreen.storyboard */; };
+		F1758F8428DDE079005DC4F4 /* FirstTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F8328DDE078005DC4F4 /* FirstTab.swift */; };
+		F1758F8628DDE0DF005DC4F4 /* SecondTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F8528DDE0DF005DC4F4 /* SecondTab.swift */; };
+		F1758F8828DDE0F6005DC4F4 /* ToDoTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F8728DDE0F6005DC4F4 /* ToDoTab.swift */; };
+		F1758F8A28DDE66A005DC4F4 /* FirstTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F8928DDE66A005DC4F4 /* FirstTabModel.swift */; };
+		F1758F8C28DDEA43005DC4F4 /* FirstTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F8B28DDEA43005DC4F4 /* FirstTabCell.swift */; };
+		F1758F8E28DF0BD8005DC4F4 /* SecondTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F8D28DF0BD8005DC4F4 /* SecondTabModel.swift */; };
+		F1758F9028DF0C19005DC4F4 /* SecondTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F8F28DF0C19005DC4F4 /* SecondTabCell.swift */; };
+		F1758F9428E06FA3005DC4F4 /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F9328E06FA3005DC4F4 /* DetailPage.swift */; };
+		F1758F9628E07BCA005DC4F4 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1758F9528E07BCA005DC4F4 /* TodoCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B311ADA08F62F516999BC97 /* Pods-homerwork-3-ErtasBurak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homerwork-3-ErtasBurak.release.xcconfig"; path = "Target Support Files/Pods-homerwork-3-ErtasBurak/Pods-homerwork-3-ErtasBurak.release.xcconfig"; sourceTree = "<group>"; };
+		AB0FA71874EA98CF3689F2BD /* Pods-homerwork-3-ErtasBurak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homerwork-3-ErtasBurak.debug.xcconfig"; path = "Target Support Files/Pods-homerwork-3-ErtasBurak/Pods-homerwork-3-ErtasBurak.debug.xcconfig"; sourceTree = "<group>"; };
+		D3DE521677DA31A02D0E3BE3 /* Pods_homerwork_3_ErtasBurak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homerwork_3_ErtasBurak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1758F6928DDDA80005DC4F4 /* homerwork-3-ErtasBurak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homerwork-3-ErtasBurak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1758F6C28DDDA80005DC4F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1758F7028DDDA80005DC4F4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F1758F7628DDDA80005DC4F4 /* homerwork_3_ErtasBurak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = homerwork_3_ErtasBurak.xcdatamodel; sourceTree = "<group>"; };
+		F1758F7828DDDA82005DC4F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1758F7B28DDDA82005DC4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1758F7D28DDDA82005DC4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1758F8328DDE078005DC4F4 /* FirstTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTab.swift; sourceTree = "<group>"; };
+		F1758F8528DDE0DF005DC4F4 /* SecondTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTab.swift; sourceTree = "<group>"; };
+		F1758F8728DDE0F6005DC4F4 /* ToDoTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTab.swift; sourceTree = "<group>"; };
+		F1758F8928DDE66A005DC4F4 /* FirstTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabModel.swift; sourceTree = "<group>"; };
+		F1758F8B28DDEA43005DC4F4 /* FirstTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabCell.swift; sourceTree = "<group>"; };
+		F1758F8D28DF0BD8005DC4F4 /* SecondTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabModel.swift; sourceTree = "<group>"; };
+		F1758F8F28DF0C19005DC4F4 /* SecondTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabCell.swift; sourceTree = "<group>"; };
+		F1758F9328E06FA3005DC4F4 /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
+		F1758F9528E07BCA005DC4F4 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1758F6628DDDA80005DC4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D5C522CEA7FF44FC17CBAA /* Pods_homerwork_3_ErtasBurak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A99C98EE531152BAF851D95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB0FA71874EA98CF3689F2BD /* Pods-homerwork-3-ErtasBurak.debug.xcconfig */,
+				5B311ADA08F62F516999BC97 /* Pods-homerwork-3-ErtasBurak.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		87A57138E9EFEAA536761850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE521677DA31A02D0E3BE3 /* Pods_homerwork_3_ErtasBurak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1758F6028DDDA80005DC4F4 = {
+			isa = PBXGroup;
+			children = (
+				F1758F6B28DDDA80005DC4F4 /* homerwork-3-ErtasBurak */,
+				F1758F6A28DDDA80005DC4F4 /* Products */,
+				4A99C98EE531152BAF851D95 /* Pods */,
+				87A57138E9EFEAA536761850 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1758F6A28DDDA80005DC4F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1758F6928DDDA80005DC4F4 /* homerwork-3-ErtasBurak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1758F6B28DDDA80005DC4F4 /* homerwork-3-ErtasBurak */ = {
+			isa = PBXGroup;
+			children = (
+				F1758F9828E090FB005DC4F4 /* Model */,
+				F1758F9728E090EA005DC4F4 /* View */,
+				F1758F6C28DDDA80005DC4F4 /* AppDelegate.swift */,
+				F1758F7828DDDA82005DC4F4 /* Assets.xcassets */,
+				F1758F7A28DDDA82005DC4F4 /* LaunchScreen.storyboard */,
+				F1758F7D28DDDA82005DC4F4 /* Info.plist */,
+				F1758F7528DDDA80005DC4F4 /* homerwork_3_ErtasBurak.xcdatamodeld */,
+			);
+			path = "homerwork-3-ErtasBurak";
+			sourceTree = "<group>";
+		};
+		F1758F9728E090EA005DC4F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1758F9328E06FA3005DC4F4 /* DetailPage.swift */,
+				F1758F9528E07BCA005DC4F4 /* TodoCell.swift */,
+				F1758F8728DDE0F6005DC4F4 /* ToDoTab.swift */,
+				F1758F8F28DF0C19005DC4F4 /* SecondTabCell.swift */,
+				F1758F8528DDE0DF005DC4F4 /* SecondTab.swift */,
+				F1758F8B28DDEA43005DC4F4 /* FirstTabCell.swift */,
+				F1758F8328DDE078005DC4F4 /* FirstTab.swift */,
+				F1758F7028DDDA80005DC4F4 /* TabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1758F9828E090FB005DC4F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1758F8D28DF0BD8005DC4F4 /* SecondTabModel.swift */,
+				F1758F8928DDE66A005DC4F4 /* FirstTabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1758F6828DDDA80005DC4F4 /* homerwork-3-ErtasBurak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1758F8028DDDA82005DC4F4 /* Build configuration list for PBXNativeTarget "homerwork-3-ErtasBurak" */;
+			buildPhases = (
+				B8B904A003C4CF76B348D0A1 /* [CP] Check Pods Manifest.lock */,
+				F1758F6528DDDA80005DC4F4 /* Sources */,
+				F1758F6628DDDA80005DC4F4 /* Frameworks */,
+				F1758F6728DDDA80005DC4F4 /* Resources */,
+				DC3E0C84A1A651A94B7FA3E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "homerwork-3-ErtasBurak";
+			productName = "homerwork-3-ErtasBurak";
+			productReference = F1758F6928DDDA80005DC4F4 /* homerwork-3-ErtasBurak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1758F6128DDDA80005DC4F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F1758F6828DDDA80005DC4F4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F1758F6428DDDA80005DC4F4 /* Build configuration list for PBXProject "homerwork-3-ErtasBurak" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1758F6028DDDA80005DC4F4;
+			productRefGroup = F1758F6A28DDDA80005DC4F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1758F6828DDDA80005DC4F4 /* homerwork-3-ErtasBurak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1758F6728DDDA80005DC4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1758F7C28DDDA82005DC4F4 /* LaunchScreen.storyboard in Resources */,
+				F1758F7928DDDA82005DC4F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8B904A003C4CF76B348D0A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-homerwork-3-ErtasBurak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3E0C84A1A651A94B7FA3E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-homerwork-3-ErtasBurak/Pods-homerwork-3-ErtasBurak-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-homerwork-3-ErtasBurak/Pods-homerwork-3-ErtasBurak-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homerwork-3-ErtasBurak/Pods-homerwork-3-ErtasBurak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1758F6528DDDA80005DC4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1758F8A28DDE66A005DC4F4 /* FirstTabModel.swift in Sources */,
+				F1758F9428E06FA3005DC4F4 /* DetailPage.swift in Sources */,
+				F1758F8428DDE079005DC4F4 /* FirstTab.swift in Sources */,
+				F1758F8828DDE0F6005DC4F4 /* ToDoTab.swift in Sources */,
+				F1758F8628DDE0DF005DC4F4 /* SecondTab.swift in Sources */,
+				F1758F8C28DDEA43005DC4F4 /* FirstTabCell.swift in Sources */,
+				F1758F7128DDDA80005DC4F4 /* TabBar.swift in Sources */,
+				F1758F9628E07BCA005DC4F4 /* TodoCell.swift in Sources */,
+				F1758F6D28DDDA80005DC4F4 /* AppDelegate.swift in Sources */,
+				F1758F9028DF0C19005DC4F4 /* SecondTabCell.swift in Sources */,
+				F1758F8E28DF0BD8005DC4F4 /* SecondTabModel.swift in Sources */,
+				F1758F7728DDDA80005DC4F4 /* homerwork_3_ErtasBurak.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1758F7A28DDDA82005DC4F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1758F7B28DDDA82005DC4F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1758F7E28DDDA82005DC4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1758F7F28DDDA82005DC4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1758F8128DDDA82005DC4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0FA71874EA98CF3689F2BD /* Pods-homerwork-3-ErtasBurak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "homerwork-3-ErtasBurak/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burakertas.homerwork-3-ErtasBurak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1758F8228DDDA82005DC4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B311ADA08F62F516999BC97 /* Pods-homerwork-3-ErtasBurak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "homerwork-3-ErtasBurak/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burakertas.homerwork-3-ErtasBurak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1758F6428DDDA80005DC4F4 /* Build configuration list for PBXProject "homerwork-3-ErtasBurak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1758F7E28DDDA82005DC4F4 /* Debug */,
+				F1758F7F28DDDA82005DC4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1758F8028DDDA82005DC4F4 /* Build configuration list for PBXNativeTarget "homerwork-3-ErtasBurak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1758F8128DDDA82005DC4F4 /* Debug */,
+				F1758F8228DDDA82005DC4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1758F7528DDDA80005DC4F4 /* homerwork_3_ErtasBurak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1758F7628DDDA80005DC4F4 /* homerwork_3_ErtasBurak.xcdatamodel */,
+			);
+			currentVersion = F1758F7628DDDA80005DC4F4 /* homerwork_3_ErtasBurak.xcdatamodel */;
+			path = homerwork_3_ErtasBurak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1758F6128DDDA80005DC4F4 /* Project object */;
+}
