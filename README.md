@@ -20,6 +20,7 @@
  -----
  
  ## ToDo list yetişmedi, çalışmıyor.
+ ## MVVM mimarisine uygun olmadı.
  Kingfisher, Cocoapods ile  kuruldu.
  
  ## Demo
